@@ -1,0 +1,21 @@
+#brexitCountdown{
+    float: right;
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.6666;
+}
+.rtl #brexitCountdown{
+    float: left;
+}
+.block-editor-page #brexitCountdown{
+    display: none;
+}
+@media screen and (max-width: 782px) {
+    #brexitCountdown,
+    .rtl #brexitCountdown{
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
